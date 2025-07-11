@@ -29,7 +29,7 @@ Ask Keyboard to do something for you in Claude and see for yourself!
 ```mermaid
 flowchart LR
     A[MCP Client] -->|WebSocket Connection| B[MCP Server]
-    B -->|Approval Request| C[Approver]
+    B -->|Approval Request| C[Approver Electron App]
     C -->|Approval Response| B
     B -->|Secure Code Execution| D[Code Execution Environment]
     D -->|Execution Result| B
@@ -54,14 +54,14 @@ Tips for using Keyboard with Claude
 git clone --recursive git@github.com:keyboard-dev/keyboard-local.git
 cd keyboard-local
 
-# Work on desktop app
+# Work on desktop electron app
 cd apps/approver-client
-npm install && npm run build
+npm install && npm run dev
 
 
 # Work on server (different terminal)
 cd apps/keyboard-mcp
-npm install && npm run dev
+npm install && npm run build
 ```
 
 Once you have both repos, read the [quickstart](https://docs.keyboard.dev/docs/quickstart) in the docs for the comprehensive step by step.
