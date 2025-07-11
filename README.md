@@ -2,7 +2,7 @@
 
 **A powerful Model Context Protocol (MCP) server for secure task execution directly in your AI Client.**
 
-[![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/keyboard)
+[![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/UxsRWtV6M2)
 
 ## What is Keyboard? 
 
@@ -20,9 +20,9 @@ Ask Keyboard to do something for you in Claude and see for yourself!
 
 ## Key Features
 
-- Connect Your Tools: One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment. 
-- Private: Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
-- Secure Workflows: Run code safely within your own controlled environment with human oriented approval workflows.  
+- **Connect Your Tools:** One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment. 
+- **Private:** Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
+- **Secure Workflows:** Run code safely within your own controlled environment with human oriented approval workflows.  
 
 ## Architecture
 
@@ -38,14 +38,14 @@ flowchart LR
 
 ## Quickstart
 
-Keyboard is available to use today for free. See the Quickstart guide to get up and running quickly. 
+Keyboard is available to use today for free. See the [quickstart](https://docs.keyboard.dev/docs/quickstart) guide to get up and running quickly. 
 
 ## Documentation
 
 Full docs can be found at https://docs.keyboard.dev/ but see below for direct links to a few docs that will help you use Keyboard after you get set up: 
 
-Learn how to connect your third party apps 
-Tips for using Keyboard with Claude 
+* [Learn how to connect your third party apps](https://docs.keyboard.dev/docs/third-party-apps) 
+* [Tips for using Keyboard with Claude](https://docs.keyboard.dev/docs/usability-tips-with-claude) 
 
 ## Get Started with this Repo
 
@@ -70,19 +70,18 @@ Once you have both repos, read the [quickstart](https://docs.keyboard.dev/docs/q
 
 ✅ DO THIS:
 
-Make changes in apps/approver-client/ or apps/keyboard-mcp/
-Create branches and commits like normal
-Submit PRs to the individual repos:
+* Make changes in apps/approver-client/ or apps/keyboard-mcp/
+* Create branches and commits like normal
+* Submit PRs to the individual repos:
 
 Approver Client changes → https://github.com/keyboard-dev/approver-client
 
 Keyboard MCP changes → https://github.com/keyboard-dev/keyboard-mcp
 
-## ❌ DON'T DO THIS:
+❌ DON'T DO THIS:
 
-Don't submit PRs to this monorepo (unless changing this README)
-Don't worry about "updating submodules" - handled automatically
+* Don't submit PRs to this monorepo (unless changing this README)
+* Don't worry about "updating submodules" - handled automatically
 
-That's It!
-Work like you normally would. This repo just saves you from cloning multiple repositories.
+That's It! Work like you normally would. This repo just saves you from cloning multiple repositories.
 
