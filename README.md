@@ -1,4 +1,10 @@
-# What is Keyboard? 
+# Keyboard
+
+**A powerful Model Context Protocol (MCP) server for secure task execution directly in your AI Client.**
+
+[![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/keyboard)
+
+## What is Keyboard? 
 
 Keyboard is a universal Model Context Protocol (MCP) server designed to transform how you interact with AI clients like Claude. It provides a flexible and secure platform for connecting your internal applications to your AI client and executing complex tasks across various domains via direct code execution and task automation
 
@@ -40,11 +46,6 @@ Full docs can be found at https://docs.keyboard.dev/ but see below for direct li
 
 Learn how to connect your third party apps 
 Tips for using Keyboard with Claude 
-
-
-**A powerful Model Context Protocol (MCP) server for secure task execution directly in your AI Client.**
-
-[![Docs](https://img.shields.io/badge/docs-keyboard.dev-blue)](https://docs.keyboard.dev/) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE) [![Discord](https://img.shields.io/badge/discord-join-7289da)](https://discord.gg/keyboard)
 
 ## Get Started with this Repo
 
