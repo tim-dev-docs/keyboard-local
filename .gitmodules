@@ -1,0 +1,6 @@
+[submodule "apps/approver-client"]
+	path = apps/approver-client
+	url = https://github.com/keyboard-dev/approver-client.git
+[submodule "apps/keyboard-mcp"]
+	path = apps/keyboard-mcp
+	url = https://github.com/keyboard-dev/keyboard-mcp.git
