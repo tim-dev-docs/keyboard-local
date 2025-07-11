@@ -14,9 +14,9 @@ Ask Keyboard to do something for you in Claude and see for yourself!
 
 ## Key Features
 
-Connect Your Tools: One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment. 
-Private: Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
-Secure Workflows: Run code safely within your own controlled environment with human oriented approval workflows.  
+- Connect Your Tools: One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment. 
+- Private: Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
+- Secure Workflows: Run code safely within your own controlled environment with human oriented approval workflows.  
 
 ## Architecture
 
