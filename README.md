@@ -6,13 +6,15 @@ cd keyboard-local
 
 # Work on desktop app
 cd apps/approver-client
-npm install && npm start
+npm install && npm run build
 
 
 # Work on server (different terminal)
 cd apps/keyboard-mcp
-npm install && npm start
+npm install && npm run dev
 ```
+
+Read the docs to fully get started.
 
 ## 🔥 Important: How to Contribute
 ✅ DO THIS:
