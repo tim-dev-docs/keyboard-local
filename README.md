@@ -51,7 +51,7 @@ Tips for using Keyboard with Claude
 
 ```bash
 # Get access to both repos
-git clone --recursive git@github.com:keyboard-dev/keyboard-local.git
+git clone --recursive https://github.com/keyboard-dev/keyboard-local.git
 cd keyboard-local
 
 # Work on desktop electron app
