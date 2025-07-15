@@ -12,7 +12,9 @@ Keyboard is a universal Model Context Protocol (MCP) server designed to transfor
 
 ![Keyboard Demo](keyboard-run-the-docs.gif)
 
-## How it works in 3 steps:
+## How does it work
+
+### How it works in 3 steps:
 
 1. **Ask Claude** to execute a task using your connected tools
 2. **Review & approve** the generated code in the desktop app
@@ -26,33 +28,22 @@ flowchart LR
     D -->|📊 Results| A
 ```
 
-## When should I use Keyboard?
-
-When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub Codespace, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI Client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
-
-## How does it work? 
+### Full breakdown
 
 Keyboard’s MCP server enables remote code execution in a GitHub codespace tied to your GitHub account that can then execute tasks in the connected apps via their APIs. When you ask your AI Client to have Keyboard  to execute a task for you, Keyboard spins up a codespace and writes a node.js script to execute that task for you. The AI Client will walk you through the steps it’s taking and you have the ability to approve any code before it gets executed in the AI Client on your behalf. Once the code is executed you then have the option accept or reject sending the response back to a MCP client like Claude to better ensure your privacy.
 
 Ask Keyboard to do something for you in Claude and see for yourself! 
+
+## When should I use Keyboard?
+
+When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub Codespace, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI Client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
 
 ## Key Features
 
 - **Connect Your Tools:** One MCP, all your tools. Provide Keyboard access to third party tools in your own GitHub environment. 
 - **Private:** Keyboard doesn't have access to your API keys, it only has access to the GitHub Codespace.
 - **Secure Workflows:** Run code safely within your own controlled environment with human oriented approval workflows.  
-
-## Architecture
-
-```mermaid
-flowchart LR
-    A[MCP Client] -->|WebSocket Connection| B[MCP Server]
-    B -->|Approval Request| C[Approver Electron App]
-    C -->|Approval Response| B
-    B -->|Secure Code Execution| D[Code Execution Environment]
-    D -->|Execution Result| B
-    B -->|Response| A
-```
+- **Human Control:** You approve what code is executed, you also approve what data is sent is back to MCP clients like Claude.
 
 ## Quickstart
 
@@ -74,11 +65,15 @@ cd keyboard-local
 
 # Work on desktop electron app
 cd apps/approver-client
+git checkout main
+git pull origin main
 npm install && npm run dev
 
 
 # Work on server (different terminal)
 cd apps/keyboard-mcp
+git checkout main
+git pull origin main
 npm install && npm run build
 ```
 
