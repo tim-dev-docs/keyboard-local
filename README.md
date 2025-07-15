@@ -16,6 +16,8 @@ Keyboard is a universal Model Context Protocol (MCP) server designed to transfor
 
 <img src="https://ourgif.s3.us-east-1.amazonaws.com/keyboard%20run%20the%20docs.gif" alt="Keyboard Demo" />
 
+<iframe width="2543" height="1183" src="https://www.youtube.com/embed/7JPlveUqlZg" title="Every Superman Honest Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ![Keyboard Demo](https://kahs-bucket.s3.us-east-1.amazonaws.com/1505866476034.jpg)
 
