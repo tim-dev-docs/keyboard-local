@@ -98,3 +98,22 @@ Keyboard MCP changes → https://github.com/keyboard-dev/keyboard-mcp
 
 That's It! Work like you normally would. This repo just saves you from cloning multiple repositories.
 
+---
+
+## ⚠️ Disclaimer
+
+**Use at your own risk.** Keyboard is experimental software that executes code in your environment. While we've designed it with security in mind, you should:
+
+- Review all code before approving execution
+- Only connect trusted applications
+- Understand that API calls may have real-world effects
+- Use in non-production environments initially
+
+This software is provided "as is" without warranty of any kind, express or implied.
+
+---
+
+**⭐ If Keyboard helps you work more securely with AI, please give us a star!**
+
+*Built with ❤️ by the Keyboard team*
+
