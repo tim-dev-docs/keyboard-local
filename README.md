@@ -8,6 +8,24 @@
 
 Keyboard is a universal Model Context Protocol (MCP) server designed to transform how you interact with AI clients like Claude. It provides a flexible and secure platform for connecting your internal applications to your AI client and executing complex tasks across various domains via direct code execution and task automation
 
+## 🚀 Quick Demo
+
+![Keyboard Demo](keyboard-run-the-docs.gif)
+
+## How it works in 3 steps:
+
+1. **Ask Claude** to execute a task using your connected tools
+2. **Review & approve** the generated code in the desktop app
+3. **Watch it execute** safely in your own GitHub Codespace
+
+```mermaid
+flowchart LR
+    A[📱 Claude Request] -->|"Send email via Gmail"| B[🔍 Keyboard Generates Code]
+    B -->|📋 Shows preview| C[✅ You approve/reject]
+    C -->|✅ Approved| D[☁️ Executes in Codespace]
+    D -->|📊 Results| A
+```
+
 ## When should I use Keyboard?
 
 When you want your AI Client (Claude, ChatGPT, etc.) to execute tasks on your behalf. Connect your tools to your own secure GitHub Codespace, ask Claude to execute something in one of them and watch Keyboard go to work. With Keyboard, you don’t need to install an MCP server for each app or service you’d like to connect to your AI Client. Instead, any app with an API key can be connected to Keyboard while giving you control to approve or deny the actions.
